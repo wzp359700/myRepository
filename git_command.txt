@@ -1,0 +1,55 @@
+创建新文件夹：		mkdir <floder>(文件夹名字)
+
+创建新文件：		vi <file>(文件名)
+
+添加显示当前目录：	pwd
+
+初始化Git仓库：		git init
+
+把文件添加到仓库：	git add <file>
+
+把文件提交到仓库：	git commit -m "本次提交说明，可为任意内容"
+
+仓库当前状态：		git status
+
+查看历史记录：		git log 
+
+以行的方式查看历史记录：git log --pretty=oneline
+
+回到上一个版本：	git reset --hard HEAD^	(上一个 ^ | 上两个 ^^ | n个 ~n)
+
+查看操作记录：		git reflog
+
+查看工作区与版本库中最新版本的区别：git diff(difference)
+
+撤销工作区的全部修改：  git checkout -- <file>
+
+撤销暂存区的修改：	git reset HEAD <file>
+
+删除文件：		rm <file>
+			git rm <file>
+			git commit -m "xxx"
+
+查看文件内容：		cat <file>
+
+恢复误删文件：		git checkout -- <file>
+
+连接Github远程仓库：	git remote add origin git@github.com:wzp359700/<repository>.git
+
+本地库推送到远程仓库：	git push -u(由于远程库是空的第一次需要-u  此后提交忽略) origin master
+
+从Github克隆：		git clone git@github.com:359700/<repository name>.git
+
+查看分支：		git branch
+
+创建分支：		git branch <name>
+
+切换分支：		git checkout <name>
+
+创建+切换分支：		git checkout -b <name>
+
+合并某分支到当前分支：	git merge <name>
+
+删除分支：		git branch -d <name>
+
+ 
