@@ -1,3 +1,11 @@
+全局设置用户名：	git config --global user.name "Your Name"
+
+全局设置密码：		git config --global user.email "email@example.com"
+
+查看已设配置：		git config --list
+
+创建SSH Key：		ssh-keygen -t rsa -C "youremail@example.com"
+
 创建新文件夹：		mkdir <floder>(文件夹名字)
 
 创建新文件：		vi <file>(文件名)
